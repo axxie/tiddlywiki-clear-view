@@ -1,0 +1,5 @@
+title: $:/plugins/axxie/clear-view/view-toolbar-checkbox
+tags: $:/tags/ViewTemplate
+list-after: $:/core/ui/ViewTemplate/title
+
+<$expand-toolbar/>

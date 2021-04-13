@@ -1,0 +1,48 @@
+label.toolbar-expander {
+    float: right;
+    display: none;
+}
+
+label.toolbar-collapser {
+    float: right;
+}
+
+.tc-tiddler-view-frame:hover label.toolbar-expander {
+    display: block;
+    fill: #eeeeee;
+}
+
+input.toolbar-expander-checkbox {
+    display: none;
+}
+
+input.toolbar-expander-checkbox:checked + label.toolbar-expander + .tc-tiddler-controls {
+    display: block;
+}
+
+input.toolbar-expander-checkbox + label.toolbar-expander + .tc-tiddler-controls {
+    display: none;
+}
+
+input.toolbar-expander-checkbox:checked + label.toolbar-expander {
+    display: none !important;
+}
+
+input.toolbar-expander-checkbox + label.toolbar-expander + .tc-tiddler-controls + label.toolbar-collapser {
+    display: none;
+}
+
+input.toolbar-expander-checkbox:checked + label.toolbar-expander + .tc-tiddler-controls + label.toolbar-collapser {
+    display: block;
+}
+
+
+.tc-titlebar:hover label.toolbar-expander.tc-btn-invisible svg,
+label.toolbar-collapser.tc-btn-invisible svg {
+    fill: #cccccc;
+}
+
+.tc-titlebar:hover label.toolbar-expander.tc-btn-invisible:hover svg,
+label.toolbar-collapser.tc-btn-invisible:hover svg {
+    fill: #888888;
+}

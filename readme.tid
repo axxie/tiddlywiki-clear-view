@@ -1,0 +1,11 @@
+title: $:/plugins/axxie/clear-view/readme
+
+Hides view toolbar until special expand button 
+<div style="width: 1em;height:1em; display:inline-block;vertical-align:top;">
+{{$:/core/images/chevron-left}}
+</div>
+is clicked.
+The expand button itself is also hidden util tiddler is hovered.
+All of this reduces visual clutter for better browsing and reading
+experience.
+

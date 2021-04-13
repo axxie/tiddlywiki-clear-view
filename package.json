@@ -1,0 +1,14 @@
+{
+  "name": "tiddlywiki-clear-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/axxie/tiddlywiki-clear-view.git",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+      "watch": "nodemon -V -e js,json,tid,info -i wiki/tiddlers/$__StoryList.tid ../../../tiddlywiki.js wiki --listen",
+      "build": "node ../../../tiddlywiki.js wiki --build index"
+  }
+}

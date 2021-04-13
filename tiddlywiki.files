@@ -1,0 +1,20 @@
+{
+    "tiddlers": [
+        { 
+            "file": "expand-toolbar-widget.js",
+            "isTiddlerFile": true
+        },
+        { 
+            "file": "view-toolbar-checkbox.tid",
+            "isTiddlerFile": true
+        },
+        { 
+            "file": "clear-view.css",
+            "isTiddlerFile": true
+        },
+        {
+            "file": "readme.tid",
+            "isTiddlerFile": true
+        }
+    ]
+}
